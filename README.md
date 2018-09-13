@@ -1,2 +1,2 @@
 # lerna-webpack-typescript
-An abstract illustration of multiple same dependencies import problem
+An abstract illustration of multiple same dependencies import problem when bundling with Webpack
