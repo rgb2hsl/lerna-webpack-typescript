@@ -1,0 +1,13 @@
+{
+  "name": "@lerna-webpack-typescript/woopler",
+  "version": "0.0.1",
+  "description": "Make absolutely redundant async call to the cat api, then outputs a message to console and so... a cat picture into a document",
+  "main": "index.ts",
+  "author": "ru-web-designer",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@types/jquery": "^3.3.6",
+    "jquery": "^3.3.1"
+  }
+}

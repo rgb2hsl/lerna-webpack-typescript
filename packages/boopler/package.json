@@ -1,0 +1,15 @@
+{
+  "name": "@lerna-webpack-typescript/boopler",
+  "version": "0.0.1",
+  "description": "Uses jquery to boop in console on DOMContentLoaded",
+  "main": "index.ts",
+  "author": "ru-web-designer",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@lerna-webpack-typescript/woopler": "^0.0.1",
+    "@types/jquery": "^3.3.6",
+    "jquery": "^3.3.1",
+    "typescript": "^3.0.3"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "lerna": "^3.3.2",
+    "typescript": "^3.0.3",
+    "webpack": "^4.18.1"
+  },
+  "name": "@lerna-webpack-typescript/root",
+  "version": "0.0.1",
+  "description": "An abstract illustration of multiple same dependencies import problem when bundling with Webpack",
+  "main": "index.ts",
+  "repository": "git@github.com:ru-web-designer/lerna-webpack-typescript.git",
+  "author": "ru-web-designer <ru.web.designer@gmail.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.0"
+  }
+}
