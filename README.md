@@ -22,3 +22,9 @@ And check the result again.
 
 * [Duplicate module loaded multiple times](https://github.com/webpack/webpack/issues/2134)
 * [https://github.com/webpack/webpack/issues/5455](https://github.com/webpack/webpack/issues/5455)
+
+# Possible workarounds?
+
+* Make some `shared` package, which have `jquery` dependency and make resolve alias to it's jquery.  Don't store jquery in `boopler` and `woopler` deps. Possible cons is static errors in IDE, maybe something else.
+* Use `optimization.runtimeChunk: 'single'` in `webpack.config.js` [link](https://github.com/webpack/webpack/issues/2134#issuecomment-389124211)
+* Using aliases with peer dependencies [link](https://github.com/webpack/webpack/issues/5455#issuecomment-369399064)
