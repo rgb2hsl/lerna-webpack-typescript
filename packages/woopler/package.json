@@ -1,7 +1,7 @@
 {
   "name": "@lerna-webpack-typescript/woopler",
   "version": "0.0.1",
-  "description": "Make absolutely redundant async call to the cat api, then outputs a message to console and so... a cat picture into a document",
+  "description": "Make absolutely redundant cat image load and append it document body, then call console.log",
   "main": "index.ts",
   "author": "ru-web-designer",
   "license": "UNLICENSED",
